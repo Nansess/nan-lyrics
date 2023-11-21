@@ -10,7 +10,9 @@ npm install github:Nansess/nan-lyrics
 
 ## Example
 
-```const LyricsAPI = require('nan-lyrics');
+```
+const LyricsAPI = require('nan-lyrics');
+
 lyricsApi.getLyrics('sad')
     .then(lyrics => {
         console.log('Lyrics:', lyrics);
